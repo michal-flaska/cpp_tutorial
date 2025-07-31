@@ -1,0 +1,1 @@
+## Taking personal notes from what I've learned
