@@ -6,11 +6,15 @@ int main() {
         // const int MAX_USERS = 100;                         // Maximum number of users
         // const std::string APP_NAME = "My Application";     // Name of the application
 
-        const double PI = 3.14159; // Constant for Pi
-        double radius = 5.0; // Radius of a circle
-        double circumference = 2 * PI * radius; // Calculate circumference
+        // Best practice for constant variables is to use uppercase letters with underscores.
 
-        std::cout << circumference << '\n'; // Output the circumference
+        const double PI = 3.14159;
+        const int LIGHT_SPEED = 299792458;
+        const int WIDTH = 1920;
+        const int HEIGHT = 1080;
+
+        // Recap: const is used to declare constant variables that cannot be modified after initialization.
+        // These constants can be used throughout the program to represent fixed values.
 
         return 0;
 }
