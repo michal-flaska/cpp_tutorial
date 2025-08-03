@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string> // Fix for getline to work properly with strings.
 
 int main() {
 
@@ -28,6 +28,5 @@ int main() {
 - to accept strings with spaces, use `std::getline(std::cin, name)` instead of `std::cin >> name`.
 - if we accept some user input with cin and then try to use getline, it may not work as expected because the newline character from the previous input remains in the input buffer.
 - To fix this problem above, you can replace `std::getline(std::cin, name);` with `std::getline(std::cin >> std:ws, name);`.
-
 
 */
