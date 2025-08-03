@@ -3,7 +3,6 @@
                         // However `std::max` and `std::min` do not need to import `cmath` as they are part of the standard library.
                         // https://cplusplus.com/reference/cmath/ - cmath documentation.
 
-
 int main() {
 
         double x = 3.14;
@@ -20,8 +19,23 @@ int main() {
         z = ceil(x);            // Using `ceil` to round `x` UP to the nearest integer.
         z = floor(x);           // Using `floor` to round `x` DOWN to the nearest integer.
         */
-
+       
         std::cout << z;
 
         return 0;
 }
+
+/*
+Recap:
+- `std::max` and `std::min` are used to find the maximum
+   and minimum of two values, respectively.
+- `pow` is used to calculate the power of a number.
+- `sqrt` is used to calculate the square root of a number.
+- `abs` is used to get the absolute value of a number.
+- `round` is used to round a number to the nearest integer.
+- `ceil` is used to round a number UP to the nearest integer.
+- `floor` is used to round a number DOWN to the nearest integer.
+- These functions are part of the C++ standard library and can be used for various mathematical operations.
+- The `cmath` header is included to use these mathematical functions, but some functions like `std::max` and `std::min` do not require it as they are part of the standard library.
+- Always remember to include the necessary headers for the functions we are using.
+*/
