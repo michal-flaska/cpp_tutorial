@@ -15,3 +15,7 @@
   - `std::endl` means end line (breakline -> `<br />`)
   - can be also written as `'\n'` -> much more used
   - Benefit of using `endl` is that the end line will flush the output buffer
+
+- `std::cout << "This is a text" << '\n';` can also be written like this: `std::cout << "This is a text\n";`
+
+- All of other notes are contained at the bottom of all .cpp files as `Recap`.
