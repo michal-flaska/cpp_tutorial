@@ -32,3 +32,5 @@ int main() {
 // - Best practice is to use descriptive names for type aliases and to end them with `_t` to indicate that they are types.
 // - The `using` keyword is preferred in modern C++ for creating type aliases.
 // - Type aliases can be used to simplify complex types, such as containers or function pointers.
+
+// - Should only be used when it improves code clarity and maintainability.
