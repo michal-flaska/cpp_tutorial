@@ -59,7 +59,8 @@ Recap:
 - `switch` statements are more efficient and easier to read than multiple `if-else` statements when checking a variable against many possible values.
 - It is a good practice to use `switch` statements when you have a variable that can take on a limited set of values, such as integers or characters.
 - `switch` statements can only be used with integral types (like `int`, `char`, etc.) and cannot be used with floating-point types or strings.
-- Always remember to include a `default` case to handle unexpected values.
+- Include a `default` case to handle unexpected values. `default` is like `else` in `if-else` statements.
+- `switch` statements can be nested, but it is generally better to avoid deep nesting for readability.
 
 --------------- BELOW IS A C++ PROGRAM EXAMPLE OF WHAT WE DONT WANT TO DO: ---------------
 
