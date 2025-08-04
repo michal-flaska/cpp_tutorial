@@ -62,7 +62,7 @@ Recap:
 - Include a `default` case to handle unexpected values. `default` is like `else` in `if-else` statements.
 - `switch` statements can be nested, but it is generally better to avoid deep nesting for readability.
 
---------------- BELOW IS A C++ PROGRAM EXAMPLE OF WHAT WE DONT WANT TO DO: ---------------
+--------------- BELOW IS A C++ PROGRAM EXAMPLE OF WHAT WE DON'T WANT TO DO: ---------------
 
 #include <iostream>
 
