@@ -33,3 +33,13 @@ int main(){
 
         return 0;
 }
+
+/*
+Recap:
+- Variables in C++ are used to store data that can change during the execution of a program.
+- Different types of variables are used to store different kinds of data, such as integers, doubles, characters, booleans, and strings.
+- Integer variables store whole numbers, double variables store decimal numbers, character variables store single characters, boolean variables store true or false values, and string variables store sequences of text.
+- It is important to choose the appropriate variable type based on the data you want to store.
+- Variables must be declared before they can be used, and they can be initialized with a value at the time of declaration.
+- Variable names should be descriptive and follow naming conventions, such as starting with a letter and using camelCase or snake_case.
+*/
