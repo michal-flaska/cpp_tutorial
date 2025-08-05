@@ -10,12 +10,15 @@ int main(){
                         // Sometimes the memory where tries lives just happens to be zero or a small value on that system, that compiler, that execution.
                         // machine, compiler, OS, or runtime context probably left garbage in that memory slot.
 
+        const int MAX_NUMBER = 10;
+        const int MIN_NUMBER = 2;
+
         srand(time(NULL));
 
-        num = (rand() % 100) + 1;
+        num = (rand() % MAX_NUMBER) + MIN_NUMBER;
 
         do {
-                std::cout << "Enter a guess between (1 - 100): ";
+                std::cout << "Enter a guess between (" << MIN_NUMBER << " - " << MAX_NUMBER << "): ";
                 std::cin >> guess;
                 tries++;
 
