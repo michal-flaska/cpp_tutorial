@@ -1,6 +1,8 @@
 #include <iostream>
 #include <ctime>
 
+// There's a bug that I don't know how to fix. Every time I finish a game, the total number of tries is shown as 32,764 or higher. I'm unable to find the problem.
+
 int main(){
 
         int num;
