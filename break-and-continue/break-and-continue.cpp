@@ -5,8 +5,8 @@ int main() {
         for(int i = 1; i <= 20; i++){   // Loop from 1 to 20, adding 1 to i in each iteration
 
                 if(i == 13){
-                        continue;       // Skip the number 13
-                        break;          // Exit the loop if i is 13
+                        // continue;       // Skip the number 13
+                        // break;          // Exit the loop if i is 13
                 }
 
                 std::cout << i << '\n';
