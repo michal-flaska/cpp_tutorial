@@ -18,6 +18,13 @@ int main(){
 /*
 Recap:
 
+- C++ provides several useful methods for manipulating strings.
+- These methods can be used to perform various operations on strings, such as checking their length, clearing them, appending text, accessing characters, inserting text, finding substrings, and erasing parts of the string.
+- The `std::string` class provides these methods, and they can be called on string variables.
+- We use `std::getline(std::cin, name)` to read a full line of input, allowing for spaces in the name (if we used `std::cin >> name`, it would only read until the first space).
+
+-------------------------------------------------------------------------------------------
+
 - `stringName.length()` is a method that returns the number of characters in a string.
 - It is useful for validating input, such as checking if a name exceeds a certain length.
 
