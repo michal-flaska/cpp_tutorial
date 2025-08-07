@@ -4,9 +4,11 @@
 
 int main() {
 
+        bool isInfinite = true;
+
         std::cout << "Started doing nothing" << '\n';
 
-        while (true) {
+        while (isInfinite == true) {
                 // Do nothing or minimal logic
                 std::this_thread::sleep_for(std::chrono::seconds(1));
         }
