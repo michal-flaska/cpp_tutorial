@@ -1,0 +1,1 @@
+Personal tests (outside from the tutorial) were moved to a separate github repository: https://github.com/michal-flaska/cpp_projects
