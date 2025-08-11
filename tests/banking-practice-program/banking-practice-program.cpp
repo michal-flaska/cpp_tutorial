@@ -8,14 +8,13 @@ int main(){
 
         double balance = 0;
         int choice = 0;
-        
+
         do{
-                std::cout << "Enter your choice: " << '\n';
+                std::cout << "Enter your choice: ";
                 std::cout << "1. Show Balance" << '\n';
                 std::cout << "2. Deposit Money" << '\n';
                 std::cout << "3. Withdraw Money" << '\n';
                 std::cout << "4. Exit" << '\n';
-                
                 std::cin >> choice;
 
                 switch(choice){
@@ -27,22 +26,23 @@ int main(){
                                 break;
                         case 4: std::cout << "Thanks for visiting!" << '\n';
                                 break;
-                        default:
-                                std::cout << "Invalid choice" << '\n';
+                        default: std::cout << "Invalid choice!" << '\n';
                 }
         }while(choice != 4);
 
         return 0;
 }
 
-void showBalance(){
+void showBalance(double balance){
 
 }
+
 double deposit(){
 
         return 0;
 }
-double withdraw(){
+
+double withdraw(double balance){
 
         return 0;
 }
