@@ -29,5 +29,6 @@ int main(){
         // number of content in arrays
         std::cout << "There is " << sizeof(food)/sizeof(std::string)    << " food in our string array" << '\n';
         std::cout << "There is " << sizeof(settings)/sizeof(bool)       << " settings in our bool array" << '\n';
+        
         return 0;
 }
