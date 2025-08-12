@@ -21,6 +21,5 @@ double getTotal(double prices[], int size){
                 total += prices[i];
         }
 
-
         return total;
 }
