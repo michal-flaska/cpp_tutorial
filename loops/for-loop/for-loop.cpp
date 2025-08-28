@@ -12,7 +12,7 @@ int main(){
 }
 
 /*
-Recap:
+Notes:
 
 - A for loop is used to execute a block of code a specific number of times.
 - It consists of three parts: initialization, condition, and increment/decrement.

@@ -20,3 +20,12 @@ int main(){
 
         return 0;
 }
+
+/*
+Notes:
+- Variables store data that can change during program execution
+- Must declare before using: int x;
+- Can initialize when declaring: int x = 5;
+- Choose meaningful names for variables
+- Different types for different kinds of data (int, double, string, etc.)
+*/

@@ -21,3 +21,12 @@ int main(){
 
         return 0;
 }
+
+/*
+Notes:
+- Simple random event picker using switch statement
+- srand(time(0)) makes sure we get different results each time
+- rand() % 5 + 1 gives numbers 1-5
+- Could easily add more cases or change the prizes
+- Good practice for combining random numbers with switch statements
+*/

@@ -19,6 +19,7 @@ int main() {
 }
 
 /*
+Notes:
 - if you are in vscode, you must set the terminal to be the output terminal, not the debug console.
 
 - `cout <<` is used to output text to the console.

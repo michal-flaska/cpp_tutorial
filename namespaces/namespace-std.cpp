@@ -9,3 +9,12 @@ int main() {
 
         return 0;
 }
+
+/*
+Notes:
+- using namespace std; lets you skip writing std:: everywhere
+- Can also do specific ones like using std::cout;
+- Makes code cleaner but some people say it's bad practice
+- In big projects it can cause name conflicts
+- For learning/small programs it's totally fine
+*/

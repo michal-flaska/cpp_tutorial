@@ -37,7 +37,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - Logical operators are used to combine multiple conditions in control flow statements like `if`, `while`, etc.
 - The `&&` operator is the logical AND operator, which returns true if both conditions are true.
 - The `||` operator is the logical OR operator, which returns true if at least one of the conditions is true.

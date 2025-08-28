@@ -51,7 +51,7 @@ int main(){
 }
 
 /*
-Recap:
+Notes:
 - `switch` statements are used to execute one block of code among many based on the value of a variable.
 - Each `case` represents a possible value of the variable, and the code block under that case will be executed if the variable matches that value.
 - The `break` statement is used to exit the `switch` statement after executing the code block for the matched case.

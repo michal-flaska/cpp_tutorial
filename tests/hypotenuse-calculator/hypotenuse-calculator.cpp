@@ -26,7 +26,7 @@ int main (){
 }
 
 /*
-Recap:
+Notes:
 - This program calculates the length of the hypotenuse of a right triangle using the Pythagorean theorem.
 - The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse (c) is equal to the sum of the squares of the lengths of the other two sides (a and b).
 - The `pow` function is used to square the lengths of sides a and b, and the `sqrt` function is used to calculate the square root of the sum of these squares to find the length of the hypotenuse.

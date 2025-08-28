@@ -46,7 +46,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - Ternary operator is a shorthand for if-else statements.
 - Syntax: condition ? expression_if_true : expression_if_false;
 - It can be used to simplify code and make it more readable.

@@ -21,7 +21,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - #include <iostream>: Lets you use std::cout for output
 - #include <ctime>: Lets you use time(NULL) to get current time for seeding random
 - srand(time(NULL)): Seeds the pseudo-random number generator with current time

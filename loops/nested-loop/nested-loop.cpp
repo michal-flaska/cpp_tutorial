@@ -13,6 +13,10 @@ int main(){
 }
 
 /*
-Recap:
-- 
+Notes:
+- Nested loops = loop inside another loop
+- Outer loop runs once, inner loop runs completely each time
+- In this example: outer runs 3 times, inner runs 10 times each = 30 total prints
+- Useful for 2D stuff like grids, tables, or patterns
+- Can get slow quickly - 100x100 nested loop = 10,000 iterations
 */

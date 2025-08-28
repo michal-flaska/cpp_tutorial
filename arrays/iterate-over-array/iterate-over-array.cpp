@@ -12,3 +12,11 @@ int main(){
 
         return 0;
 }
+
+/*
+Notes:
+- sizeof(array)/sizeof(type) gives you array length
+- Much better than hardcoding the size in the loop
+- for loops are perfect for going through arrays
+- i < length, not i <= length (that would go out of bounds)
+*/

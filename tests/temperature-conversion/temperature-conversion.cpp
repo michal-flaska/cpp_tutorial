@@ -31,3 +31,12 @@ int main() {
         std::cout << "------------------------------------------------------------" << '\n';
         return 0;
 }
+
+/*
+Notes:
+- Simple conversion program using if-else statements
+- Handles both uppercase and lowercase input with || operator
+- Math formulas: C to F = (C * 1.8) + 32, F to C = (F - 32) / 1.8
+- Input validation for invalid units
+- Good practice with user input and mathematical operations
+*/

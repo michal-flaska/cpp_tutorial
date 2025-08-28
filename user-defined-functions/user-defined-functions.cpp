@@ -20,6 +20,6 @@ void happyBirthday(std::string name, int age){
 }
 
 /*
-Recap:
+Notes:
 - Function is a block of reusable code.
 */

@@ -28,7 +28,7 @@ int main(){
 }
 
 /*
-Recap:
+Notes:
 - The condition inside the `if` statement can be any expression that evaluates to a boolean value (true or false).
 - If the condition is true, the code block inside the `if` statement will be executed
 - We dont use `=` in `if` statements, we use `==` to check for equality. Because `=` is used for assignment, not comparison.

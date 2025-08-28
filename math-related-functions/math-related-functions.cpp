@@ -26,7 +26,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - `std::max` and `std::min` are used to find the maximum
    and minimum of two values, respectively.
 - `pow` is used to calculate the power of a number.

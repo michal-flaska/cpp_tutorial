@@ -6,7 +6,7 @@ int main(){
 }
 
 /*
-Recap:
+Notes:
 - Local Variables: declared inside a function or block {}
 - Global Variables: declared outside all functions
 */

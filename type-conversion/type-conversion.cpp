@@ -56,7 +56,7 @@ int main() {
 }
 
 /*
-Notes: 
+Notes:
 - Type conversion = conversion of one data type to another.
 - We have two types of type conversion in C++: implicit and explicit.
         - Implicit conversion = automatic conversion by the compiler.

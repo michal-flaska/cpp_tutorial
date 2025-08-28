@@ -19,3 +19,12 @@ int main(){
 
         return 0;
 }
+
+/*
+Notes:
+- Range-based for loop (foreach) is way simpler than regular for loop
+- Automatically goes through each element, no need for indexing
+- Can't modify the original array elements unless you use references
+- Less flexible - can't skip elements or go backwards
+- Perfect when you just need to read/display all elements
+*/

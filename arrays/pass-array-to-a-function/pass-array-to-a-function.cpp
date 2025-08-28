@@ -23,3 +23,11 @@ double getTotal(double prices[], int size){
 
         return total;
 }
+
+/*
+Notes:
+- Arrays lose their size info when passed to functions
+- That's why we need to pass size as separate parameter
+- Array parameter is actually just a pointer to first element
+- Function can modify the original array (no copy is made)
+*/

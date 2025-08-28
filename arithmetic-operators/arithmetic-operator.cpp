@@ -52,3 +52,13 @@ int main(){
 
         return 0;
 }
+
+/*
+Notes:
+- Basic math operators: +, -, *, /, %
+- Shorthand versions are way cleaner: +=, -=, *=, /=, %=
+- ++ and -- only work for adding/subtracting 1
+- Order matters! * and / happen before + and -, use () to force order
+- Integer division cuts off decimals (6/4 = 1, not 1.5)
+- % gives remainder after division (useful for checking even/odd numbers)
+*/

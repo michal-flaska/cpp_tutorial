@@ -37,3 +37,12 @@ int main(){
 
         return 0;
 }
+
+/*
+Notes:
+- Had to initialize tries = 0 because uninitialized variables contain garbage values
+- srand(time(NULL)) seeds the random generator so we get different numbers each run
+- rand() % MAX_NUMBER gives 0 to MAX_NUMBER-1, so +MIN_NUMBER shifts the range
+- do-while perfect here because we want to ask at least once
+- This was fun to make, good practice with loops and random numbers
+*/

@@ -82,3 +82,13 @@ double withdraw(double balance){
                 return amount;
         }
 }
+
+/*
+Notes:
+- This was good practice combining loops, functions, and user input
+- do-while ensures menu shows at least once
+- std::setprecision(2) and std::fixed make money display properly
+- Input validation prevents negative deposits/withdrawals
+- Functions make the code way more organized than putting everything in main()
+- std::cin.clear() and fflush(stdin) help with input buffer issues
+*/

@@ -16,7 +16,7 @@ int main(){
 }
 
 /*
-Recap:
+Notes:
 
 - C++ provides several useful methods for manipulating strings.
 - These methods can be used to perform various operations on strings, such as checking their length, clearing them, appending text, accessing characters, inserting text, finding substrings, and erasing parts of the string.

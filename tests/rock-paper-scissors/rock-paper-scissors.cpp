@@ -101,3 +101,13 @@ void chooseWinner(char player, char computer){
                         break;
         }
 }
+
+/*
+Notes:
+- This was a bigger project that used multiple functions
+- Input validation with do-while loop ensures valid choice
+- Random computer choice using switch statement
+- Lots of nested if-else for game logic - could probably be simplified
+- Good practice breaking down complex program into smaller functions
+- Each function has one clear purpose which makes debugging easier
+*/

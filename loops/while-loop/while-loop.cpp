@@ -23,7 +23,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - A while loop is used to repeatedly execute a block of code as long as a specified condition is true.
 - In this example, the loop continues until the user provides a non-empty name.
 - The loop will keep prompting the user until they enter a valid name, demonstrating how while loops can be used for input validation.

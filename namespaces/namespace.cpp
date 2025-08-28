@@ -24,3 +24,12 @@ int main() {
 
         return 0;
 }
+
+/*
+Notes:
+- Namespaces prevent name conflicts when you have same variable names
+- :: is the scope resolution operator - tells which namespace to use
+- Can have multiple namespaces with same variable names
+- using namespace lets you skip the prefix, but can cause confusion
+- Local variables take priority over namespace variables
+*/

@@ -20,7 +20,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - Constant variables are declared using the `const` keyword, which indicates that their value cannot be changed after initialization.
 - They are typically used for values that are fixed and do not change throughout the program, such as mathematical constants (like `PI`), configuration values, or settings.
 - Using constant variables improves code readability and maintainability, as it makes the purpose of the variable clear and prevents accidental modification of values that should remain constant.

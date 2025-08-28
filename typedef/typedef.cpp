@@ -26,7 +26,7 @@ int main() {
         return 0;
 }
 
-// Recap:
+// Notes:
 // - `typedef` and `using` are used to create type aliases in C++.
 // - Type aliases can make code more readable and easier to maintain.
 // - Best practice is to use descriptive names for type aliases and to end them with `_t` to indicate that they are types.

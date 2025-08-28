@@ -27,3 +27,12 @@ double cube(double length){
         double result = length * length * length;
         return result;
 }
+
+/*
+Notes:
+- return sends a value back to whoever called the function
+- Function stops executing as soon as it hits return
+- The data type after return must match what the function promises to return
+- Can return the calculation directly: return length * length;
+- void functions don't return anything, just use return; to exit early
+*/

@@ -32,3 +32,13 @@ int main(){
         
         return 0;
 }
+
+/*
+Notes:
+- sizeof() tells you how many bytes something takes in memory
+- Different data types take different amounts of space
+- Arrays: total size = element size × number of elements
+- sizeof(array)/sizeof(type) gives you number of elements
+- Useful for loops when you don't know array size beforehand
+- String size is always 32 bytes regardless of content (it's an object)
+*/

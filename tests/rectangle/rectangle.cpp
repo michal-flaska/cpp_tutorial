@@ -26,6 +26,10 @@ int main() {
 }
 
 /*
-Recap:
-- 
+Notes:
+- Nested loops create 2D patterns - outer for rows, inner for columns
+- Each inner loop completes fully before outer loop increments
+- Good practice for understanding how nested loops work
+- Could modify this to make different shapes or patterns
+- Shows how user input can control program behavior
 */

@@ -16,7 +16,7 @@ int main() {
 }
 
 /*
-Recap;
+Notes:
 - The `continue` statement is used to skip the current iteration of a loop and move to the next iteration.
 - The `break` statement is used to exit the loop entirely, regardless of the loop's condition.
 - In this example, the loop iterates from 1 to 20, but when `i` is equal to 13, the `continue` statement is executed, which skips the output for that iteration.

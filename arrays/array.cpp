@@ -15,8 +15,10 @@ int main(){
 }
 
 /*
-Notes: 
-- Arrays should all be of the same data type.
-- You can create array on declaration, or just declare an array and assign the values later in the code, but we first need to set a size to the array, because its a static data structure.
-- 
+Notes:
+- Arrays hold multiple values of the same type
+- Need to set size when declaring: int nums[5];
+- Index starts at 0, so nums[0] is first element
+- Can go out of bounds (nums[3] = 4 when array size is 3) - this compiles but causes weird behavior
+- Better to initialize on declaration: int nums[] = {1, 2, 3};
 */

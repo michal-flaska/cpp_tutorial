@@ -51,7 +51,7 @@ int main() {
 }
 
 /*
-Recap:
+Notes:
 - This program is a simple console calculator that performs basic arithmetic operations: addition, subtraction, multiplication, and division.
 - It uses a `switch` statement to determine which operation to perform based on the operator input by the user.
 - The program prompts the user to enter an operator and two numbers, then performs the corresponding operation and displays the result.
