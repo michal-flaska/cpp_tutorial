@@ -5,7 +5,7 @@
 - `cout` means 'character out'
 - `std` is not a sexually transmitted disease
 - `std::cout` means 'standard character output'
-- at the end of statements, we add `;` (semicolon). Means that the statement is done. -> just like in javascript. 
+- at the end of statements, we add `;` (semicolon). Means that the statement is done. -> just like in javascript.
 - to write a comment, you use two slashes `//`
 - multiline comment -> written like in css -> `/* content (can be multiple lines) */`
 - `int` (integer) can only store full numbers (1, 8, 16, 21, 17, etc.)
@@ -18,4 +18,4 @@
 
 - `std::cout << "This is a text" << '\n';` can also be written like this: `std::cout << "This is a text\n";`
 
-- All of other notes are contained at the bottom of all .cpp files as `Recap`.
+- All of other notes are contained at the bottom of all .cpp files as `Recap` or `Notes:`.
