@@ -6,6 +6,4 @@ Tutorial: https://youtu.be/-TkoO8Z07hI
 Check more info in [NOTES](./NOTES.md).
 Notes are now written in each .cpp file
 
-# TOOK A BREAK AT 4:27:26
-
-(school)
+# TOOK A BREAK AT 5:18:40
