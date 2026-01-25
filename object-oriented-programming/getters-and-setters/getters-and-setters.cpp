@@ -2,22 +2,26 @@
 
 class Stove{
         public:
-        int getTemperature(){
-                return temperature;
-        }
+                int getTemperature(){
+                        return temperature;
+                }
 
-        void setTemperature(int temperature){
+                void setTemperature(int temperature){
 
-                if(temperature < 0){
-                        this->temperature = 0;
+                        if(temperature < 0){
+                                this->temperature = 0;
+                        }
+                        else if(temperature >= 10){
+                                this->temperature = 10;
+                        }
+                        else{
+                                this->temperature = temperature;
+                        }
                 }
-                else if(temperature >= 10){
-                        this->temperature = 10;
+
+                Stove(int temperature){
+                        setTemperature(temperature);
                 }
-                else{
-                        this->temperature = temperature;
-                }
-        }
 
         private:
                 int temperature = 0;
@@ -25,7 +29,7 @@ class Stove{
 
 int main(){
 
-        Stove stove;
+        Stove stove(0);
 
         std::cout << stove.getTemperature() << '\n';
 
