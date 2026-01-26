@@ -18,4 +18,4 @@
 
 - `std::cout << "This is a text" << '\n';` can also be written like this: `std::cout << "This is a text\n";`
 
-- All of other notes are contained at the bottom of all .cpp files as `Recap` or `Notes:`.
+- All of other notes are contained at the bottom of all .cpp files as `Recap:` or `Notes:`.
