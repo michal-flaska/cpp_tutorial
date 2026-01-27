@@ -26,7 +26,7 @@ void swap(std::string &x, std::string &y){
 
 /*
 
-THIS WONT WORK, WHY?
+THIS PROGRAM BELOW WONT WORK, WHY?
 Because normally when we pass a variable to a function,
 we are passing by value, when we invoke this function we're creating copies of the original values.
 And we are only switching the copies, not the original values.
